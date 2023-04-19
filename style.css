@@ -47,7 +47,7 @@ section {
 }
 
 .blue {
-  color: #f06449 !important;
+  color: rgba(18, 148, 133, 0.993) !important;
 }
 
 /* 
@@ -79,7 +79,7 @@ section {
 }
 
 .social__link {
-  background-color: #f06449;
+  background-color: rgba(18, 148, 133, 0.993);
   color: white;
   padding: 6px;
   width: 32px;
