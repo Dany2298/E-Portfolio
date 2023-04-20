@@ -261,6 +261,10 @@ nav {
   margin-right: 16px;
 }
 
+.project__description--link:hover {
+  color: rgb(36, 206, 186);
+}
+
 .project__description--para {
   margin: 16px 0;
 }
