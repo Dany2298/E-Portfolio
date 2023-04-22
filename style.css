@@ -371,6 +371,10 @@ nav {
   z-index: -1;
 }
 
+.modal__overlay--visible {
+  z-index: 1;
+}
+
 .modal__overlay {
   position: absolute;
   top: 0;
@@ -380,6 +384,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: -1;
 }
 
 .modal__overlay--success {
