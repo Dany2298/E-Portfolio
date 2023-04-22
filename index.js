@@ -6,7 +6,7 @@ function contact(event) {
   event.preventDefault();
   const loading = document.querySelector(".modal__overlay--loading");
   const success = document.querySelector(".modal__overlay--success");
-  loading.classList += "modal__overlay--visible";
+  loading.classList += " modal__overlay--visible";
   emailjs
     .sendForm(
       "service_eehx5i6",
@@ -16,7 +16,7 @@ function contact(event) {
     )
     .then(() => {
       loading.classList.remove("modal__overlay--visible");
-      success.classList += "modal__overlay--visible";
+      success.classList += " modal__overlay--visible";
     })
     .catch(() => {
       loading.classList.remove("modal__overlay--visible");
@@ -27,6 +27,7 @@ function contact(event) {
 }
 
 let isModalOpen = false;
+
 function toggleModal() {
   if (isModalOpen) {
     isModalOpen = false;
