@@ -671,6 +671,9 @@ SHAPES
 
 /* Small Phones */
 @media (max-width: 480px) {
+  #personal-logo {
+    height: 42px;
+  }
   .title {
     font-size: 52px;
   }
