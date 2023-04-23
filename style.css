@@ -326,6 +326,17 @@ nav {
   transition: visibility 1s, z-index 1s, box-shadow 0.5s ease;
 }
 
+/* .modal__about--img {
+  width: 100%;
+  max-width: 104px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+} */
+
 .modal--open .modal {
   z-index: 60;
   box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
@@ -674,6 +685,7 @@ SHAPES
 @media (max-width: 480px) {
   #personal-logo {
     height: 42px;
+    width: 50px;
   }
   .title {
     font-size: 52px;
