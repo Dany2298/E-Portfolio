@@ -401,7 +401,7 @@ nav {
   font-size: 80px;
 }
 
-.modal__overlay--visible {
+.modal .modal__overlay--visible {
   z-index: 1;
   display: flex;
 }
