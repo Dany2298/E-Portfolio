@@ -657,6 +657,15 @@ SHAPES
   top: 80vh;
   left: 90vw;
 }
+.shape--9 {
+  top: 80vh;
+  left: 70vw;
+}
+
+.shape--10 {
+  top: 37vh;
+  left: 5vw;
+}
 
 /* Small phones, Tablets, large smartphones  */
 @media (max-width: 768px) {
